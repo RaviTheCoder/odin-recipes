@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt');
-@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Reem+Kufi+Ink');
+/* @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink'); */
 
 * {
     background-color: rgb(229 198 198);
@@ -23,7 +23,6 @@ h1 {
     font-size: large;
     font-family: 'Reem Kufi Ink', Arial, Helvetica, sans-serif; 
     color: rgb(0, 41, 128);
-   
 }
 
 h2, 
