@@ -37,26 +37,47 @@ h3 {
     font-family: 'Reem Kufi Ink', Arial, Helvetica, sans-serif;
 }
 
+/* Home Page */
 #home-content {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
-    border: 2px solid rgb(185, 9, 9);
+    /* flex-direction: column; */
+    /* border: 2px solid rgb(185, 9, 9); */
 }
 
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+}
+
+/* Recipes */
+.content {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
 }
 
 .top,
 .bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    /* border: 1px solid white; */
 }
 
+/* Recipe Blocks */
 .intro {
     width: 400px;
+    margin-right: 90px;
 }
+
+.ingredients {
+    margin-right: 130px;
+}
+
+.ingredients > h3,
+.instructions > h3 {
+    margin-left: 24px;
+}
+
+
