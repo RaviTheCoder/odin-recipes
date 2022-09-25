@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Reem+Kufi+Ink');
 
+/* General */
 * {
     background-color: rgb(229 198 198);
     /* border: 2px solid red; */
 }
-
-/* img {
-    text-align: center;
-} */
 
 h1 {
     text-align: center;
@@ -79,5 +76,4 @@ h3 {
 .instructions > h3 {
     margin-left: 24px;
 }
-
 
