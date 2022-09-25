@@ -5,9 +5,9 @@
     /* border: 2px solid red; */
 }
 
-img {
+/* img {
     text-align: center;
-}
+} */
 
 h1 {
     text-align: center;
@@ -16,6 +16,7 @@ h1 {
     font-size: 170px;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-weight: 500;
 }
 
 .home,
@@ -25,15 +26,22 @@ h1 {
     color: rgb(0, 41, 128);
 }
 
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
 h2, 
 h3 {
     font-family: 'Reem Kufi Ink', Arial, Helvetica, sans-serif;
 }
 
-#content {
+#home-content {
     display: flex;
     justify-content: space-around;
-    /* border: 1px solid white; */
+    flex-direction: column;
+    border: 2px solid rgb(185, 9, 9);
 }
 
 .box {
@@ -41,4 +49,14 @@ h3 {
     flex-direction: column;
     align-items: center;
     
+}
+
+.top,
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro {
+    width: 400px;
 }
